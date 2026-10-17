@@ -1,5 +1,5 @@
 window.EK_CONFIG = {
-  SUPABASE_URL: window.__EK_SUPABASE_URL__ || "PASTE_SUPABASE_PROJECT_URL_HERE",
-  SUPABASE_ANON_KEY: window.__EK_SUPABASE_ANON_KEY__ || "PASTE_SUPABASE_ANON_PUBLIC_KEY_HERE",
+  SUPABASE_URL: "https://uaosujeyfovsenzzdwqd.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_BH1Ala6xTPMj8rr5A77GyQ_n_BlOUVA",
   APP_NAME: "eFootball Kings Online"
 };
