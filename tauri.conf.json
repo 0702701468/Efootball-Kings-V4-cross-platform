@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "eFootball Kings Online",
+  "version": "4.0.0",
+  "identifier": "com.efootballkings.online",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "eFootball Kings Online",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 1000,
+        "minHeight": 650,
+        "resizable": true
+      }
+    ],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Game",
+    "shortDescription": "eFootball Kings Online competition platform",
+    "longDescription": "Leagues, tournaments, fixtures, verified match results and player rankings for eFootball communities.",
+    "windows": { "nsis": { "installMode": "currentUser" } }
+  }
+}
